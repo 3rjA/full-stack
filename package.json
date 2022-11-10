@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/3rjA/full-stack/issues"
   },
-  "homepage": "https://github.com/3rjA/full-stack#readme"
+  "homepage": "https://github.com/3rjA/full-stack#readme",
+  "dependencies": {
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
