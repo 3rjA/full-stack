@@ -17,5 +17,13 @@ console.log(person);
 fs.writeFile(path.join(__dirname, '/testikansio', 'heippa.txt'), 'Terppa maailma!', err => {
 if (err) throw err;
 console.log('kansio luotu...');
+
+
+//lisätään eri teksti
+fs.appendFile(path.join(__dirname, '/testikansio', 'heippa.txt'), 'Terppa maailma!', err => {
+    if (err) throw err;
+    console.log('kansio luotu...');
+    });
+
 });
 
