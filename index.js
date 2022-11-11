@@ -1,4 +1,6 @@
 console.log(__dirname, __filename);
+const fs = require('fs');
+const path = require('path');
 
 console.log('Heippahei node js:sta');
 const person = require('./person');
