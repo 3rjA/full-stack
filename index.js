@@ -20,9 +20,9 @@ console.log('kansio luotu...');
 
 
 //lisätään eri teksti
-fs.appendFile(path.join(__dirname, '/testikansio', 'heippa.txt'), 'Terppa maailma!', err => {
+fs.appendFile(path.join(__dirname, '/testikansio', 'heippa.txt'), 'Terppa!', err => {
     if (err) throw err;
-    console.log('kansio luotu...');
+    console.log('modifioidaan tekstiä');
     });
 
 });
